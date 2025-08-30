@@ -1,0 +1,6 @@
+str=input("enter name and birthday separated by a comma:")
+fullname , birthday = str.split(",")
+fullname=fullname.strip()
+birthday=birthday.strip()
+print(fullname)
+print(birthday)
